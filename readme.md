@@ -40,3 +40,5 @@ The DTO folder outside the domain layer makes more sense than have all together 
 ## Packages 
  my packages in other projects have naming issues, here we can see names like `productrepository` or `productusecase` which makes the code easier to read and more "clean architecture" way
 
+## Interface segregation
+In other projects the interface segregation are most improved than at this one, by example the domain/ProductRepository has two methods used in diffrent usecases, here we can split it into AddProductRepository and FetchProduct repository to respect the ISP and make the tests easier
