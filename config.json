@@ -1,0 +1,9 @@
+{
+    "database": {
+      "url": "://postgres:postgres@localhost:5432/clean"
+    },
+    "server": {
+      "port": "3000"
+    }
+  }
+  
